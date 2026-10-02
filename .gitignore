@@ -1,0 +1,33 @@
+# AWS credentials
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Intermediate/generated project files
+output/*
+processed/*
+raw/
+training/
+
+# Keep final Geography Resolver index
+!output/geography_numpy_index.npz
+!output/geography_numpy_metadata.csv
